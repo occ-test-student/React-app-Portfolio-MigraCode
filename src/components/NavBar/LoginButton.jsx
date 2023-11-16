@@ -21,7 +21,7 @@ const LoginButton = () => {
     handleButtonClicked(false);
     try {
       // Make a request to the login API
-      const response = await fetch("http://localhost:3150/login", {
+      const response = await fetch("https://newtest-smoky.vercel.app/ogin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
